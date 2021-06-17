@@ -6,3 +6,52 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: 'Questrial', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+
+header > img {
+  height: 80px;
+}
+
+nav {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+#hero {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
